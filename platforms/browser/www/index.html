@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var $_Tawk_API={},$_Tawk_LoadStart=new Date();
+		(function(){
+			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+			s1.async=true;
+			s1.src='https://embed.tawk.to/57f78f438598f153810b0bfa/default';
+			s1.charset='UTF-8';
+			s1.setAttribute('crossorigin','*');
+			s0.parentNode.insertBefore(s1,s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
+<!-------------------------------------------------------------------------------------------------------------->
+	<!--Start of tawk.to Status Code-->
+	<script type="text/javascript">
+		$_Tawk_API = $_Tawk_API || {};
+		$_Tawk_API.onStatusChange = function (status){
+		if(status === 'online')
+		{
+		document.getElementById('tawkstatus').innerHTML = '<a class="btn btn-block btn-chat" href="javascript:void(Tawk_API.toggle())">Inicia Chat Anónimo</a>';
+		}
+		else if(status === 'away')
+		{
+		document.getElementById('tawkstatus').innerHTML = '<a class="btn btn-block btn-chat" href="javascript:void(Tawk_API.toggle())">chat away</a>';
+		}
+		else if(status === 'offline')
+		{
+		document.getElementById('tawkstatus').innerHTML = '<a class="btn btn-block btn-chat" href="javascript:void(Tawk_API.toggle())">chat offline</a>';
+		}
+		};
+	</script>
+	<!--End of tawk.to Status Code -->
+	
+	
+
+</head>
+
+
+<body>
+    
+    <div id="tawkstatus"></div>
+	
+</body>
+
+</html>
